@@ -14,7 +14,7 @@
     // Defaults
     var settings = $.extend({
         'time': 400,
-        'offset': 25,
+        'offset': 100,
         'delay': 10
     }, options);
 
