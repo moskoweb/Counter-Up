@@ -14,6 +14,7 @@
     // Defaults
     var settings = $.extend({
         'time': 400,
+        'offset': '100%',
         'delay': 10
     }, options);
 
@@ -75,7 +76,7 @@
         };
 
         // Perform counts when the element gets into view
-        $this.waypoint(counterUpper, { offset: '100%', triggerOnce: true });
+        $this.waypoint(counterUpper, { offset: $settings.delay, triggerOnce: true });
     });
 
   };
