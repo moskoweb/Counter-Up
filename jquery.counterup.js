@@ -76,7 +76,7 @@
         };
 
         // Perform counts when the element gets into view
-        $this.waypoint(counterUpper, { offset: $settings.delay + "%", triggerOnce: true });
+        $this.waypoint(counterUpper, { offset: "" + $settings.delay + "%", triggerOnce: true });
     });
 
   };
